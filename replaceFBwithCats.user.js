@@ -2,12 +2,13 @@
 // @name         Swap out FB images for cat(s)!
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  shows how to use babel compiler
+// @description  Replace FB images (not user profile pics) with a cat pic!
 // @author       aleph-naught2tog
 // @include      https://www.facebook.com/*
 // @run-at       document-end
 // ==/UserScript==
 
+// TODO: get a way to not be using others' images, also random images.
 let replacementImg =
     'https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg';
 
